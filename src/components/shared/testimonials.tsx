@@ -2,87 +2,95 @@
 export default function TestimonialsComp() {
   return (
     <>
-      <div className="container-fluid py-5 mb-5 team">
+      <div className="container-fluid testimonial py-5 mb-5">
         <div className="container">
-          <div className="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style={{['maxWidth' as any]: '600px'}}>
-            <h5 className="text-primary">Our Team</h5>
-            <h1>Meet our expert Team</h1>
+          <div className="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style={{["maxWidth"]: "600px"}}>
+            <h5 className="text-primary">Our Testimonial</h5>
+            <h1>Our Client Saying!</h1>
           </div>
-          <div className="owl-carousel team-carousel wow fadeIn" data-wow-delay=".5s">
-            <div className="rounded team-item">
-              <div className="team-content">
-                <div className="team-img-icon">
-                  <div className="team-img rounded-circle">
-                    <img src="img/team-1.jpg" className="img-fluid w-100 rounded-circle" alt="" />
-                  </div>
-                  <div className="team-name text-center py-3">
-                    <h4 className="">Full Name</h4>
-                    <p className="m-0">Designation</p>
-                  </div>
-                  <div className="team-icon d-flex justify-content-center pb-4">
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-facebook-f"></i></a>
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-twitter"></i></a>
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-instagram"></i></a>
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-linkedin-in"></i></a>
+          <div className="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".5s">
+            <div className="testimonial-item border p-4">
+              <div className="d-flex align-items-center">
+                <div className="">
+                  <img src="img/testimonial-1.jpg" alt="" />
+                </div>
+                <div className="ms-4">
+                  <h4 className="text-secondary">Client Name</h4>
+                  <p className="m-0 pb-3">Profession</p>
+                  <div className="d-flex pe-5">
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
                   </div>
                 </div>
               </div>
+              <div className="border-top mt-4 pt-3">
+                <p className="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+              </div>
             </div>
-            <div className="rounded team-item">
-              <div className="team-content">
-                <div className="team-img-icon">
-                  <div className="team-img rounded-circle">
-                    <img src="img/team-2.jpg" className="img-fluid w-100 rounded-circle" alt="" />
-                  </div>
-                  <div className="team-name text-center py-3">
-                    <h4 className="">Full Name</h4>
-                    <p className="m-0">Designation</p>
-                  </div>
-                  <div className="team-icon d-flex justify-content-center pb-4">
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-facebook-f"></i></a>
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-twitter"></i></a>
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-instagram"></i></a>
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-linkedin-in"></i></a>
+            <div className="testimonial-item border p-4">
+              <div className=" d-flex align-items-center">
+                <div className="">
+                  <img src="img/testimonial-2.jpg" alt="" />
+                </div>
+                <div className="ms-4">
+                  <h4 className="text-secondary">Client Name</h4>
+                  <p className="m-0 pb-3">Profession</p>
+                  <div className="d-flex pe-5">
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
                   </div>
                 </div>
               </div>
+              <div className="border-top mt-4 pt-3">
+                <p className="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+              </div>
             </div>
-            <div className="rounded team-item">
-              <div className="team-content">
-                <div className="team-img-icon">
-                  <div className="team-img rounded-circle">
-                    <img src="img/team-3.jpg" className="img-fluid w-100 rounded-circle" alt="" />
-                  </div>
-                  <div className="team-name text-center py-3">
-                    <h4 className="">Full Name</h4>
-                    <p className="m-0">Designation</p>
-                  </div>
-                  <div className="team-icon d-flex justify-content-center pb-4">
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-facebook-f"></i></a>
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-twitter"></i></a>
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-instagram"></i></a>
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-linkedin-in"></i></a>
+            <div className="testimonial-item border p-4">
+              <div className=" d-flex align-items-center">
+                <div className="">
+                  <img src="img/testimonial-3.jpg" alt="" />
+                </div>
+                <div className="ms-4">
+                  <h4 className="text-secondary">Client Name</h4>
+                  <p className="m-0 pb-3">Profession</p>
+                  <div className="d-flex pe-5">
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
                   </div>
                 </div>
               </div>
+              <div className="border-top mt-4 pt-3">
+                <p className="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+              </div>
             </div>
-            <div className="rounded team-item">
-              <div className="team-content">
-                <div className="team-img-icon">
-                  <div className="team-img rounded-circle">
-                    <img src="img/team-4.jpg" className="img-fluid w-100 rounded-circle" alt="" />
-                  </div>
-                  <div className="team-name text-center py-3">
-                    <h4 className="">Full Name</h4>
-                    <p className="m-0">Designation</p>
-                  </div>
-                  <div className="team-icon d-flex justify-content-center pb-4">
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-facebook-f"></i></a>
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-twitter"></i></a>
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-instagram"></i></a>
-                    <a className="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i className="fab fa-linkedin-in"></i></a>
+            <div className="testimonial-item border p-4">
+              <div className=" d-flex align-items-center">
+                <div className="">
+                  <img src="img/testimonial-4.jpg" alt="" />
+                </div>
+                <div className="ms-4">
+                  <h4 className="text-secondary">Client Name</h4>
+                  <p className="m-0 pb-3">Profession</p>
+                  <div className="d-flex pe-5">
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
+                    <i className="fas fa-star me-1 text-primary"></i>
                   </div>
                 </div>
+              </div>
+              <div className="border-top mt-4 pt-3">
+                <p className="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
               </div>
             </div>
           </div>
