@@ -4,9 +4,8 @@ export default function GetInTouchComp() {
       <div className="container-fluid py-5 mb-5">
         <div className="container">
           <div className="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style={{['maxWidth' as any]: '600px'}}>
-            <h5 className="text-primary">Get In Touch</h5>
-            <h1 className="mb-3">Contact for any query</h1>
-            <p className="mb-2">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+            <h1 className="text-primary">Get In Touch</h1>
+            <p className="mb-3">Contact for any query</p>
           </div>
           <div className="contact-detail position-relative p-5">
             <div className="row g-5 mb-5 justify-content-center">
@@ -17,7 +16,7 @@ export default function GetInTouchComp() {
                   </div>
                   <div className="ms-3">
                     <h4 className="text-primary">Address</h4>
-                    <a href="https://goo.gl/maps/Zd4BCynmTb98ivUJ6" target="_blank" className="h5">23 rank Str, NY</a>
+                    <a href="https://maps.app.goo.gl/cQ6r9KhhGCsxfQB2A" target="_blank" className="h5">23 Garden Town, Sher Shah Road, Multan, Pakistan</a>
                   </div>
                 </div>
               </div>
@@ -27,8 +26,8 @@ export default function GetInTouchComp() {
                     <i className="fa fa-phone text-white"></i>
                   </div>
                   <div className="ms-3">
-                    <h4 className="text-primary">Call Us</h4>
-                    <a className="h5" href="tel:+0123456789" target="_blank">+012 3456 7890</a>
+                    <h4 className="text-primary">Whatsapp / Call Us</h4>
+                    <a className="h5" href="tel:+923019062877" target="_blank">+92 301 9062877</a><br /><br /><br />
                   </div>
                 </div>
               </div>
@@ -39,7 +38,7 @@ export default function GetInTouchComp() {
                   </div>
                   <div className="ms-3">
                     <h4 className="text-primary">Email Us</h4>
-                    <a className="h5" href="mailto:info@example.com" target="_blank">info@example.com</a>
+                    <a className="h5" href="mailto:info@gensoft.solutions" target="_blank">info@gensoft.solutions</a><br /><br /><br />
                   </div>
                 </div>
               </div>
@@ -47,7 +46,7 @@ export default function GetInTouchComp() {
             <div className="row g-5">
               <div className="col-lg-6 wow fadeIn" data-wow-delay=".3s">
                 <div className="p-5 h-100 rounded contact-map">
-                  <iframe className="rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.4710403339755!2d-73.82241512404069!3d40.685622471397615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c26749046ee14f%3A0xea672968476d962c!2s123rd%20St%2C%20Queens%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1686493221834!5m2!1sen!2sbd" style={{['border']: '0'}} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe className="rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3449.7287958475736!2d71.40292769999999!3d30.1591689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b317fa0ab14b9%3A0x83b09052675714f8!2sGenSoft%20Solutions!5e0!3m2!1sen!2s!4v1736518306540!5m2!1sen!2s" style={{['border']: '0'}} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
               </div>
               <div className="col-lg-6 wow fadeIn" data-wow-delay=".5s">

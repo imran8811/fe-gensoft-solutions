@@ -1,19 +1,17 @@
 "use client";
-import AboutUsComp from "@/components/shared/about-us";
 import FooterComp from "@/components/shared/footer";
 import HeaderComp from "@/components/shared/header";
 import PagesBannerComp from "@/components/shared/pages-banner";
+import ProjectsComp from "@/components/shared/projects";
 import ServiceCounter from "@/components/shared/service-counter";
-import TeamComp from "@/components/shared/team";
 
-export default function AboutPage() {
+export default function ProjectsPage() {
   return (
     <>
       <HeaderComp />
-      <PagesBannerComp value="About" />
+      <PagesBannerComp value="Projects" />
       <ServiceCounter />
-      <AboutUsComp />
-      <TeamComp />
+      <ProjectsComp />
       <FooterComp />
     </>
   );

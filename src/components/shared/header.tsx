@@ -1,19 +1,16 @@
 "use client";
 import Image from "next/image";
-import styles from "./page.module.css";
-import Script from "next/script";
-import { useEffect, useState } from "react";
 import Link from "next/link";
-
+import { usePathname } from "next/navigation";
 
 export default function HeaderComp() {
-
+  const pathName = usePathname();
   return (
     <>
-      <div id="spinner" className="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+      {/* <div id="spinner" className="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div className="spinner-grow text-primary" role="status"></div>
-      </div>
-      {/* <div className="container-fluid bg-dark py-2 d-none d-md-flex">
+      </div> */}
+      <div className="container-fluid bg-dark py-2 d-none d-md-flex">
         <div className="container">
           <div className="d-flex justify-content-between topbar">
             <div className="top-info">
@@ -32,22 +29,19 @@ export default function HeaderComp() {
               <small>Note : We help you to Grow your Business</small>
             </div>
             <div className="top-link">
-              <a href="" className="bg-light nav-fill btn btn-sm-square rounded-circle">
-                <i className="fab fa-facebook-f text-primary"></i>
-              </a>
-              <a href="" className="bg-light nav-fill btn btn-sm-square rounded-circle">
+              <a href="" className="bg-light nav-fill btn btn-sm-square rounded-circle" target="_blank">
                 <i className="fab fa-twitter text-primary"></i>
               </a>
-              <a href="" className="bg-light nav-fill btn btn-sm-square rounded-circle">
-                <i className="fab fa-instagram text-primary"></i>
+              <a href="https://www.tiktok.com/@gensoft" className="bg-light nav-fill btn btn-sm-square rounded-circle" target="_blank">
+                <i className="fab fa-tiktok text-primary"></i>
               </a>
-              <a href="" className="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
+              <a href="https://www.linkedin.com/company/gensoft-solutions" className="bg-light nav-fill btn btn-sm-square rounded-circle me-0" target="_blank">
                 <i className="fab fa-linkedin-in text-primary"></i>
               </a>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       <div className="container-fluid bg-primary">
         <div className="container">
           <nav className="navbar navbar-dark navbar-expand-lg py-0">
@@ -61,10 +55,12 @@ export default function HeaderComp() {
             </button>
             <div className="collapse navbar-collapse bg-transparent" id="navbarCollapse">
               <div className="navbar-nav ms-auto mx-xl-auto p-0">
-                <Link href={"/"} className="nav-item nav-link active text-secondary">Home</Link>
-                <Link href={"/about"} className="nav-item nav-link">About</Link>
-                <Link href={"/services"} className="nav-item nav-link">Services</Link>
-                <Link href="project.html" className="nav-item nav-link">Projects</Link>
+                <Link href={"/"} className={pathName === '/'? 'nav-item nav-link active text-secondary': 'nav-item nav-link'}>Home</Link>
+                <Link href={"/about"} className={pathName === '/about'? 'nav-item nav-link active text-secondary': 'nav-item nav-link'}>About</Link>
+                <Link href={"/services"} className={pathName === '/services'? 'nav-item nav-link active text-secondary': 'nav-item nav-link'}>Services</Link>
+                <Link href={"/projects"} className={pathName === '/projects'? 'nav-item nav-link active text-secondary': 'nav-item nav-link'}>Projects</Link>
+                <Link href={"/blog"} className={pathName === '/blog'? 'nav-item nav-link active text-secondary': 'nav-item nav-link'}>Blog</Link>
+                <Link href={"/contact"} className={pathName === '/contact'? 'nav-item nav-link active text-secondary': 'nav-item nav-link'}>Contact</Link>
                 {/* <div className="nav-item dropdown">
                   <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                   <div className="dropdown-menu rounded">
@@ -74,7 +70,6 @@ export default function HeaderComp() {
                     <a href="404.html" className="dropdown-item">404 Page</a>
                   </div>
                 </div> */}
-                <Link href={"/contact"} className="nav-item nav-link">Contact</Link>
               </div>
             </div>
             <div className="d-none d-xl-flex flex-shirink-0">
