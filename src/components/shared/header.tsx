@@ -15,7 +15,7 @@ export default function HeaderComp() {
           <div className="d-flex justify-content-between topbar">
             <div className="top-info">
               <small className="me-3 text-white-50">
-                <Link href={"/"}>
+                <Link href="https://maps.app.goo.gl/cQ6r9KhhGCsxfQB2A" target="_blank">
                   <i className="fas fa-map-marker-alt me-2 text-secondary"></i>Pakistan
                 </Link>
               </small>
@@ -47,7 +47,7 @@ export default function HeaderComp() {
           <nav className="navbar navbar-dark navbar-expand-lg py-0">
             <Link href={"/"} className="navbar-brand">
               <h1 className="text-white fw-bold d-block">
-                <Image src={'/img/gensoft-logo.jpg'} alt="GenSoft Solutions Logo" width={200} height={120} />
+                <img src={'/img/gensoft-logo.png'} alt="GenSoft Solutions Logo" />
               </h1>
             </Link>
             <button type="button" className="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
