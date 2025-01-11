@@ -15,13 +15,13 @@ export default function HeaderComp() {
           <div className="d-flex justify-content-between topbar">
             <div className="top-info">
               <small className="me-3 text-white-50">
-                <Link href="https://maps.app.goo.gl/cQ6r9KhhGCsxfQB2A" target="_blank">
-                  <i className="fas fa-map-marker-alt me-2 text-secondary"></i>Pakistan
+                <Link href="https://maps.app.goo.gl/cQ6r9KhhGCsxfQB2A" target="_blank" className="text-white">
+                  <i className="fas fa-map-marker-alt me-2 text-primary"></i>Pakistan
                 </Link>
               </small>
               <small className="me-3 text-white-50">
-                <Link href="mailto:info@gensoft.solutions">
-                  <i className="fas fa-envelope me-2 text-secondary"></i>info@gensoft.solutions
+                <Link href="mailto:info@gensoft.solutions" className="text-white">
+                  <i className="fas fa-envelope me-2 text-primary"></i>info@gensoft.solutions
                 </Link>
               </small>
             </div>

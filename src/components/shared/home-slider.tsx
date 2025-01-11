@@ -17,12 +17,14 @@ export default function HomeSliderComp() {
                     <h6 className="text-secondary h4 animated fadeInUp">Best IT Solutions</h6>
                     <h1 className="text-white display-1 mb-4 animated fadeInRight">An Innovative IT Solutions Agency</h1>
                     <p className="mb-4 text-white fs-5 animated fadeInDown"><span className="text-info">GenSoft Solutions</span> is a full-service software house offering expert solutions in web development, security, digital marketing, mobile app development, and enterprise solutions.</p>
-                    <Link href={"/about"} className="me-2">
-                      <button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button>
-                    </Link>
-                    <Link href={"/contact"} className="ms-2">
-                      <button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button>
-                    </Link>
+                    <div className="d-flex">
+                      <Link href={"/about"} className="me-2 mb-3 col-6">
+                        <button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button>
+                      </Link>
+                      <Link href={"/contact"} className="ms-2 col-6">
+                        <button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
             </div>
