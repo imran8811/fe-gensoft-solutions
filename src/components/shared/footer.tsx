@@ -9,23 +9,11 @@ export default function FooterComp() {
         <div className="container pt-5 pb-4">
           <div className="row g-5">
             <div className="col-lg-3 col-md-6">
-              <h6 className="text-white fw-bold d-block">
-                <Image src={'/img/gensoft-logo.jpg'} alt="GenSoft Solutions Logo" width={150} height={90} />
-              </h6>
-              <p className="mt-4 text-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui placeat inventore consectetur repellendus optio debitis.
-              </p>
-              <div className="d-flex hightech-link">
-                <a href="" className="btn-light nav-fill btn btn-square rounded-circle me-2">
-                  <i className="fab fa-twitter text-primary"></i>
-                </a>
-                <a href="https://www.tiktok.com/@gensoft" className="btn-light nav-fill btn btn-square rounded-circle me-2">
-                  <i className="fab fa-tiktok text-primary"></i>
-                </a>
-                <a href="https://www.linkedin.com/company/gensoft-solutions" className="btn-light nav-fill btn btn-square rounded-circle me-0">
-                  <i className="fab fa-linkedin-in text-primary"></i>
-                </a>
+              <div className="text-white fw-bold d-block">
+                <h6 className="h3 text-secondary">Company Intro</h6>
+                {/* <img src={'/img/gensoft-logo.png'} alt="GenSoft Solutions Logo" /> */}
               </div>
+              <p className="mt-4 text-light"><span className="text-info">GenSoft Solutions</span> is a full-service software house offering expert solutions in web development, security, digital marketing, mobile app development, and enterprise solutions. Our team delivers custom, scalable, and secure software tailored to your business needs, ensuring enhanced performance, growth, and seamless user experiences. Let us help you achieve digital excellence.</p>
             </div>
             <div className="col-lg-3 col-md-6">
               <h3 className="h3 text-secondary">Short Link</h3>
@@ -67,6 +55,17 @@ export default function FooterComp() {
                   <i className="fas fa-phone-alt text-secondary me-2"></i> +92 301 9062877
                 </a>
                 <a href="mailto:info@gensoft.solutions" className="py-3 text-light border-bottom border-primary"><i className="fas fa-envelope text-secondary me-2"></i> info@gensoft.solutions</a>
+              </div>
+              <div className="d-flex mt-3 hightech-link">
+                <a href="" className="btn-light nav-fill btn btn-square rounded-circle me-4">
+                  <i className="fab fa-twitter text-primary"></i>
+                </a>
+                <a href="https://www.tiktok.com/@gensoft" className="btn-light nav-fill btn btn-square rounded-circle me-4">
+                  <i className="fab fa-tiktok text-primary"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/gensoft-solutions" className="btn-light nav-fill btn btn-square rounded-circle me-0">
+                  <i className="fab fa-linkedin-in text-primary"></i>
+                </a>
               </div>
             </div>
           </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AboutUsComp() {
   return (
     <>
@@ -14,10 +16,10 @@ export default function AboutUsComp() {
             </div>
             <div className="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
               <h5 className="text-primary">About Us</h5>
-              <h1 className="mb-4">About HighTech Agency And It's Innovative IT Solutions</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus. Etiam gravida justo nec erat vestibulum, et malesuada augue laoreet.</p>
-              <p className="mb-4">Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus.</p>
-              <a href="" className="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
+              <h1 className="mb-4">About <span className="text-primary">GenSoft Solutions</span> And It's Innovative IT Solutions</h1>
+              <p>Welcome to <strong className="text-primary">GenSoft Solutions</strong>, where we are all about making your digital dreams a reality! With 6 years of hands-on experience, we are not just another agency - we are your partners in success. Picture this: captivating websites that tell your story, eye-catching logos that speak volumes, and marketing strategies that get people talking (and clicking). And yes, we're not just about the tech</p>
+              <p className="mb-4">We are about the heart and soul of your brand. So, what do you say? Let's chat over Zoom and see how we can bring your vision to life!</p>
+              <Link href={'/about'} className="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</Link>
             </div>
           </div>
         </div>
