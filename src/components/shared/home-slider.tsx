@@ -17,11 +17,11 @@ export default function HomeSliderComp() {
                     <h6 className="text-secondary h4 animated fadeInUp">Best IT Solutions</h6>
                     <h1 className="text-white display-1 mb-4 animated fadeInRight">An Innovative IT Solutions Agency</h1>
                     <p className="mb-4 text-white fs-5 animated fadeInDown"><span className="text-info">GenSoft Solutions</span> is a full-service software house offering expert solutions in web development, security, digital marketing, mobile app development, and enterprise solutions.</p>
-                    <div className="d-flex">
-                      <Link href={"/about"} className="me-2 mb-3 col-6">
+                    <div className="d-flex justify-content-center">
+                      <Link href={"/about"} className="me-2 mb-3">
                         <button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button>
                       </Link>
-                      <Link href={"/contact"} className="ms-2 col-6">
+                      <Link href={"/contact"} className="ms-2">
                         <button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button>
                       </Link>
                     </div>
@@ -34,9 +34,15 @@ export default function HomeSliderComp() {
                   <div className="container carousel-content">
                     <h6 className="text-secondary h4 animated fadeInUp">Best IT Solutions</h6>
                     <h1 className="text-white display-1 mb-4 animated fadeInLeft">Quality Digital Services You Really Need!</h1>
-                    <p className="mb-4 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p>
-                    <a href="" className="me-2"><button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
-                    <a href="" className="ms-2"><button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
+                    <p className="mb-4 text-white fs-5 animated fadeInDown">From machine learning to automation, our AI services deliver intelligent, scalable solutions tailored to your needs.</p>
+                    <div className="d-flex justify-content-center">
+                      <Link href={"/about"} className="me-2 mb-3">
+                        <button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button>
+                      </Link>
+                      <Link href={"/contact"} className="ms-2">
+                        <button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
             </div>
