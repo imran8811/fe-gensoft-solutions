@@ -83,7 +83,7 @@ export default function HeaderComp() {
               </div>
               <div className="d-flex flex-column pe-4 border-end">
                 <span className="text-white-50">Have any questions?</span>
-                <span className="text-secondary">Call: +92 301 9062877</span>
+                <span className="text-secondary">Call: +92 61 2166718</span>
               </div>
               <div className="d-flex align-items-center justify-content-center ms-4 ">
                 <a href="#"><i className="bi bi-search text-white fa-2x"></i> </a>
