@@ -27,7 +27,7 @@ export default function GetInTouchComp() {
                   </div>
                   <div className="ms-3">
                     <h4 className="text-primary">Whatsapp / Call Us</h4>
-                    <a className="h5" href="tel:+923019062877" target="_blank">+92 301 9062877</a><br /><br /><br />
+                    <a className="h5" href="tel:+923019062877" target="_blank">+92 61 2166718</a><br /><br /><br />
                   </div>
                 </div>
               </div>

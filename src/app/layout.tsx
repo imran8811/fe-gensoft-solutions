@@ -22,11 +22,7 @@ export const metadata: Metadata = {
   description: "Software Development Company",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
   return (
     <>
       <html lang="en">
@@ -42,7 +38,6 @@ export default function RootLayout({
         </body>
         <GoogleAnalytics gaId="G-LE4F61PHY9" />
       </html>
-    
     </>
   );
 }
