@@ -52,7 +52,7 @@ export default function FooterComp() {
                   <i className="fas fa-map-marker-alt text-secondary me-2"></i> 23 Garden Town, Sher Shah Road, Multan, Pakistan
                 </a>
                 <a href="tel:+923019062877" className="py-3 text-light border-bottom border-primary">
-                  <i className="fas fa-phone-alt text-secondary me-2"></i> +92 301 9062877
+                  <i className="fas fa-phone-alt text-secondary me-2"></i> +92 61 2166718
                 </a>
                 <a href="mailto:info@gensoft.solutions" className="py-3 text-light border-bottom border-primary"><i className="fas fa-envelope text-secondary me-2"></i> info@gensoft.solutions</a>
               </div>
